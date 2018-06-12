@@ -5,6 +5,7 @@ class RomanNumerals
      10 => 'X', 9 => 'IX', 5 => 'V',
       4 => 'IV', 1 => 'I' }
   def convert(number)
+    return 'nulla' if number == 0
     result = ''
     ROMAN_NUMBERS.each do |k, v|
       (number / k).times { result << v; number -= k }

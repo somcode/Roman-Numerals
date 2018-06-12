@@ -18,5 +18,9 @@ describe RomanNumerals do
     it 'should be able to convert 17 to XVII' do
       expect(romannumerals.convert(17)).to eq 'XVII'
     end
+
+    it 'should be able to convert 745 to DCCXLV' do
+      expect(romannumerals.convert(745)).to eq 'DCCXLV'
+    end
   end
 end

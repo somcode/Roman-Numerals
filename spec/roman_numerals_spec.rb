@@ -30,5 +30,13 @@ describe RomanNumerals do
     it 'should be able to convert 2426 to MMCDXXVI' do
       expect(romannumerals.convert(2426)).to eq 'MMCDXXVI'
     end
+
+    it 'should be able to convert 2426 to MMCDXXVI' do
+      expect(romannumerals.convert(2426)).to eq 'MMCDXXVI'
+    end
+
+    it 'should be able to convert 0 to "nulla"' do
+      expect(romannumerals.convert(0)).to eq 'nulla'
+    end
   end
 end

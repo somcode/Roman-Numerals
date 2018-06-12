@@ -3,7 +3,7 @@ class RomanNumerals
   def convert(number)
     result = ''
     ROMAN_NUMBERS.each do |k, v|
-      (number / k).times { result << v; number = number - k }
+      (number / k).times { result << v; number -= k }
     end
     result
   end

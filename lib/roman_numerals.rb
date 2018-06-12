@@ -1,6 +1,6 @@
 class RomanNumerals
+  ROMAN_NUMBERS = { 10 => 'X', 5 => 'V' , 1 => 'I' }
   def convert(number)
-    return 'V' if number == 5
-    'I'
+    ROMAN_NUMBERS[number]
   end
 end

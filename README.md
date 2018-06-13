@@ -26,3 +26,25 @@ In this challenge, we're going to write a function that converts an integer to i
 In the early days of Roman numerals, the Romans built their numerals from the individual characters (e.g., I, V, X, etc.) written largest value to smallest from left to right.  To determine the value of any numeral, they used straight addition.  I is equivalent to 1.  II is equivalent to 1 + 1, or 2.  VIIII is equivalent to 5 + 1 + 1 + 1 + 1, or 9.
 
 We are going to begin writing a function `convert(number)`.  When passed an integer, this function will return a string containing the proper Roman Numeral.  In other words, `convert(58)` should return the string `'LVIII'`.
+
+## Technology
+- Ruby
+- RSpec
+
+## Instruction
+
+1. Open your terminal and clone this repository
+2. Change directory ```cd Roman-Numerals``` and then run  ```
+bundle install```
+3. Open IRB by typing ```irb``` on you terminal
+4. Type the following commands:
+```
+require './lib/roman_numerals.rb'
+```
+```
+romannumerals = RomanNumerals.new
+```
+```
+romannumerals.convert(X)
+```
+Which ``` X ``` could be any number.

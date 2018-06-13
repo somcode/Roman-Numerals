@@ -52,3 +52,8 @@ Which ``` X ``` could be any number.
 ## Example output
 
 <img width="587" alt="screen shot 2018-06-13 at 23 04 26" src="https://user-images.githubusercontent.com/34063826/41381164-b8312b42-6f5e-11e8-8105-ff75afd15d96.png">
+
+## Running Tests
+
+Run ``` rspec ``` on your terminal
+<img width="568" alt="screen shot 2018-06-13 at 23 04 53" src="https://user-images.githubusercontent.com/34063826/41381290-32ab9ede-6f5f-11e8-8348-31e6b13afdd6.png">
